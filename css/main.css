@@ -97,6 +97,7 @@ textarea {
 
 html {
   background-color: #fff;
+  font-size: 1em;
   height: 100%;
   width: 100%;
 }
@@ -104,7 +105,7 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
   color: #fff;
 }
@@ -112,30 +113,38 @@ body {
 header,
 footer {
   align-items: center;
-  background-color: #222;
+  background-color: #121C19;
+  color: #fff;
   display: flex;
-  height: 80px;
+  height: 200px;
   justify-content: center;
   width: 100%;
 }
 
 main {
   align-items: center;
-  background-color: #ccc;
+  background-color: #3A5C51;
   display: flex;
   height: 250px;
   justify-content: center;
   width: 100%;
 }
 
-header,
-footer,
-main {
+header h1{
+  color: #fff;
+  font-size: 4em;
+}
 
+main h3{
+  color: #121C19;
+  font-size: 2em;
+  font-weight: 200;
+  margin: 1em 1em;
 }
 
 .flex-container {
   align-items: center;
+  background-color: #609A87;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -143,16 +152,37 @@ main {
 
 .flex-items {
   align-items: center;
-  color: #fff;
+  background-color: #97BEB2;
+  color: #121C19;
   display: flex;
-  justify-content: center;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  justify-content:space-around;
+  margin: 1em 1em;
   width: 30%;
-  height: 200px;
+  height: 400px;
 }
 
+.flex-items h2 {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1em;
+  padding: 1em 1em;
+}
+
+.flex-items p {
+  font-size: 1em;
+  font-weight: 200;
+  padding: 1em 1em 1em 0em;
+}
+
+footer p {
+  color: #fff;
+  padding: 1em 1em;
+}
+
+footer a {
+  color: #97BEB2;
+  text-decoration: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
